@@ -1,0 +1,180 @@
+/* Light Theme General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+/* Top Buttons moved into Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+/* Logo and Title */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f0f0f0;
+    background: #fff;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Top Buttons inside Header */
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.signup-btn, .login-btn {
+    padding: 12px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #ffd700; /* Golden color */
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effects */
+.signup-btn:hover, .login-btn:hover {
+    background-color: #ffc107; /* Darker golden color */
+    transform: scale(1.1);
+    color: #fff;
+}
+
+/* Background Image */
+.background-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('your-background-image-link-here.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* About BDG Section */
+.about-bdg {
+    padding: 40px 20px;
+    background: #fafafa;
+    text-align: center;
+}
+
+.about-bdg h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-bdg p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* About BDG Section */
+.about-bdg {
+    padding: 50px 20px;
+    background: #fafafa; /* Light grey background */
+    text-align: center;
+}
+
+.about-bdg h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #222;
+    font-weight: bold;
+}
+
+.about-bdg p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+/* Background Image Section */
+.background-image {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: #fff; /* Updated to white background behind image */
+    overflow: hidden;
+    margin: 0;
+}
+
+.wallpaper {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the full area */
+    border-radius: 0; /* No rounded corners for full cover */
+    display: block;
+    margin-left: 5%; /* Adds space on the left */
+    margin-right: 5%; /* Adds space on the right */
+}
+
+.telegram-icon {
+    position: fixed;
+    bottom: 80px; /* Bottom se thoda upar */
+    right: 20px; /* Right side se thoda andar */
+    z-index: 9999; /* Hamesha sabse upar rahe */
+    text-decoration: none;
+}
+
+.telegram-circle {
+    width: 80px; /* increased from 60px */
+    height: 80px; /* increased from 60px */
+    background-color: #0088cc; /* Telegram blue color */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.telegram-circle img {
+    width: 45px; /* increased from 30px */
+    height: 45px; /* increased from 30px */
+}
+
+.telegram-circle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
